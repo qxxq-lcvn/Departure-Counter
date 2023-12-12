@@ -1,0 +1,48 @@
+body {
+    background-image: url("anime.jpg");
+    background-size: cover;
+    background-position: center;
+    font-family: Oxygen;
+    font-weight: bold;
+    text-align: center;
+    width: 100%;
+    color: #F3F8FF;
+}
+
+.container {
+    max-width: 80%;
+    margin: auto;
+    border: 3px solid white; 
+}
+
+h1 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-decoration: underline;
+}
+
+h2 {
+    font-size: 50px;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+button {
+    border: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: white;
+    font-weight: bold;
+    width: 200px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+    text-transform: uppercase;
+}
+
+#increment-btn {
+    background: #49108B;
+}
+
+#save-btn {
+    background: #7E30E1;
+}
